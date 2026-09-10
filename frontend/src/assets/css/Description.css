@@ -1,0 +1,25 @@
+.description-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .description-table th, .description-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .description-table th {
+    background-color: #f4f4f4;
+  }
+
+.high-null-percentage {
+  color: #ee6565; /* Couleur du texte en rouge */
+  background-color: #ffe6e6; /* Fond en rouge pâle */
+  font-weight: bold; /* Texte en gras */
+}
+.high-null-percentage :hover {
+  color: #ffe6e6; /* Couleur du texte en rouge */
+  background-color: #ee6565; /* Fond en rouge pâle */
+}

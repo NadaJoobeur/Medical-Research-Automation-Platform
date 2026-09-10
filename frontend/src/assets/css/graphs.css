@@ -1,0 +1,100 @@
+.cnt {
+    padding: 20px 20px 20px 260px; /* Padding harmonisé */
+  }
+  
+  .cnt div {
+    margin-bottom: 3px; /* Espacement augmenté */
+  }
+  
+  label {
+    font-weight: 600; /* Poids de police légèrement moins fort */
+    display: block;
+    margin-bottom: 8px; /* Espacement augmenté */
+    color: #333; /* Couleur de texte plus douce */
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px; /* Padding augmenté pour plus de confort */
+    border: 1px solid #ddd; /* Bordure plus claire */
+    border-radius: 8px; /* Coins arrondis plus prononcés */
+    background-color: #f9f9f9; /* Fond légèrement gris pour une meilleure lisibilité */
+    margin-bottom: 5px;
+  }
+  
+  .show {
+    margin-top: 20px;
+    background-color: #007bff; /* Couleur bleue principale */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Padding ajusté pour un meilleur rendu */
+    cursor: pointer;
+    border-radius: 8px; /* Coins arrondis plus doux */
+    width: auto; /* Ajuster la largeur automatiquement */
+    display: inline-block; /* Pour éviter les problèmes de largeur */
+  }
+  
+  .show:hover {
+    background-color: #0056b3; /* Couleur de survol ajustée */
+  }
+  
+  .cnt h2 {
+    margin-top: 0;
+    color: #333; /* Couleur de texte douce */
+  }
+  
+  .cnt p {
+    margin: 0;
+    padding: 0;
+    color: #666; /* Couleur de texte pour un contraste doux */
+  }
+  
+  .graph {
+    display: flex;
+    flex-direction: column; /* Alignement vertical */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 4px; /* Espacement au-dessus du graphique */
+    width: 100%;
+  }
+  
+  .chart-container {
+    width: 90%;
+    max-width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd; /* Bordure plus douce */
+    border-radius: 12px; /* Coins arrondis plus prononcés */
+    background-color: #fff; /* Fond blanc */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Ombre plus douce */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .download-button {
+    margin-top: 1px; /* Espacement au-dessus du bouton */
+    padding: 12px 24px; /* Padding ajusté pour un meilleur confort */
+    background-color: #0056b3; /* Couleur verte pour le bouton */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Coins arrondis */
+    cursor: pointer;
+    font-size: 16px; /* Taille de police plus grande */
+  }
+  
+  .download-button:hover {
+    background-color: #61dafb; /* Couleur de survol plus sombre */
+  }
+  .chart-container {
+    position: relative;
+    width: 100%; /* Ajuste la largeur du conteneur */
+    height: 500px; /* Ajuste la hauteur du conteneur */
+  }
+  
+  .chart-container canvas {
+    width: 100% ; /* Assure que le canvas prend toute la largeur du conteneur */
+    height: 100% ; /* Assure que le canvas prend toute la hauteur du conteneur */
+  }
+  

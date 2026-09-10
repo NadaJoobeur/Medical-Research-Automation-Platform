@@ -1,0 +1,19 @@
+/* src/styles.css */
+
+.inception-versions {
+    padding: 20px;
+    text-align: center;
+}
+
+.inception-option {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inception-option:hover {
+    background-color: #f0f0f0;
+}

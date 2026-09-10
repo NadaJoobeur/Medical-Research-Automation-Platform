@@ -1,0 +1,72 @@
+/* ProjectDetail.css */
+.project-detail {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .project-info {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    background-color: #f9f9f9;
+    height: 250px;
+  }
+  
+  .project-image {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+  }
+  
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Point-virgule ajouté */
+    font-family: "Courier New", Courier, monospace; /* Polices monospace */
+  }
+  
+  .project-details h1 {
+    margin: 0;
+  }
+  
+
+  .app-name1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: flex-end; /* Ajoutez cette ligne */
+    flex-grow: 1; /* Ajoutez cette ligne */
+  }
+
+  .import-button {
+    margin-top: 70px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .import-button:hover {
+    background-color: #007bff;
+  }
+  .back-button i {
+    margin-right: 8px; /* Espacement entre l'icône et le texte */
+  }

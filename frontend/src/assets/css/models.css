@@ -1,0 +1,175 @@
+.content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3 px;
+    padding: 20px;
+    padding-left: 300px;
+  }
+  
+
+  h1{
+    margin-bottom:0px;
+    color:#2c3e50;
+    font-size: 1.5em;
+
+  }
+  
+  h2 {
+    margin-top:2px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    text-align: left;
+    color:#2c3e50;
+  }
+  
+  .task-selection, .model-selection, .training-parameters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  }
+  
+  label {
+    font-weight: bold;
+    text-align: left;
+
+  }
+  
+  select, input[type="number"], button {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .bb {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    width: 170px;
+   
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /*.target-feature-container p {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+  }*/
+  .target-feature p {
+    font-size: 1em;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    padding: 12px;
+    background: linear-gradient(135deg, #f7f7f7, #e0e0e0);
+    /*border-radius: 10px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);*/
+  }
+  hr {
+    border: 0;
+    height: 2px; /* Épaisseur de la ligne */
+    background: #333; /* Couleur de la ligne */
+    margin: 20px 0; /* Espacement autour de la ligne */
+}
+
+/*********************/
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%;
+  background-color: #fff;
+  margin: left 400px;
+}
+
+.result-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.result-content {
+  text-align: center;
+}
+
+.result-message, .result-score {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.result-no-data {
+  color: #999;
+  font-style: italic;
+}
+.btn1{justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */}
+
+  .section,.result-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.result-containe
+{width:100%;}
+.res{
+  width:1200px
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* Ajuste l'espacement entre les éléments */
+  align-items: flex-start; /* Aligne les éléments en haut */
+  gap: 20px; /* Espace entre les divs */
+}
+
+.result-content, .chart-container {
+  flex: 1; /* Permet aux deux divs de s'étendre également */
+  padding: 20px; /* Ajoute un peu d'espace à l'intérieur des divs */
+  box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+}
+
+
+.chart-container {
+  height: 200px;
+}
+.radio-buttons {
+  display: flex;
+  align-items: center; /* Aligne verticalement les éléments au centre */
+}
+
+.radio-buttons label {
+  margin-right: 15px; /* Espacement entre les boutons radio */
+}
+
+.radio-buttons input[type="radio"] {
+  margin-right: 5px; /* Espacement entre le bouton radio et le texte */
+}
+.dropdown2 {
+  background-color: white; /* Couleur de fond pour bien voir le dropdown */
+  border: 1px solid #ccc; /* Ajoute une bordure pour mieux le distinguer */
+}
+.met{
+  width:1150px;
+
+
+}

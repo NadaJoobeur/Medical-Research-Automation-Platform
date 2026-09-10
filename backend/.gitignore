@@ -1,0 +1,81 @@
+# =========================
+# Python
+# =========================
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# IDE
+# =========================
+
+.idea/
+.vscode/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Flask / generated files
+# =========================
+
+flask_session/
+
+# =========================
+# Temporary files
+# =========================
+
+temp/
+tmp/
+
+# =========================
+# ML models / large files
+# =========================
+
+routes/model/
+
+# =========================
+# Uploaded / generated data
+# =========================
+
+uploadsDL/
+uploadsML/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Build / distribution
+# =========================
+
+build/
+dist/
+*.egg-info/

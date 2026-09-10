@@ -1,0 +1,319 @@
+.processing-page {
+    padding: 20px;
+  }  
+  .processing-page h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font: size 3em;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  pre {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: auto;
+    white-space: pre-wrap;
+  }
+  
+  h3 {
+    color: #2c3e50;
+
+  }
+  /***************************/
+  .separator-line {
+    border: 0;
+    border-top: 2px solid #b7b9bc; /* Couleur et épaisseur de la ligne */
+    margin: 20px 0; /* Espacement au-dessus et en-dessous de la ligne */
+  }
+
+  .data-preview {
+    padding: 20px; /* Ajouter du padding autour du conteneur */
+    background-color: #f9f9f9; /* Couleur de fond pour plus de contraste */
+    border-radius: 8px; /* Coins arrondis pour un aspect moderne */
+    margin-top: 20px; /* Espacement au-dessus du conteneur */
+    padding-top:  0.5px;
+  }
+  
+  .data-preview h3 {
+    text-align: left; /* Aligner le texte à gauche */
+    font-size: 1.2em; /* Taille du texte pour plus de visibilité */
+    color: #265077; /* Couleur du texte pour un bon contraste */
+  }
+
+  .table-container {
+    overflow-x: auto; /* Défilement horizontal si nécessaire */
+    overflow-y: auto; /* Défilement vertical si nécessaire */
+    max-height: 550px; /* Hauteur fixe pour permettre le défilement vertical */
+    border: 1px solid #ddd; /* Bordure pour mieux voir les limites du conteneur */
+    padding: 10px; /* Espacement interne */
+  }
+  
+  .data-table {
+    width: 100%; /* Prendre toute la largeur du conteneur */
+    border-collapse: collapse; /* Fusionner les bordures des cellules */
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd; /* Bordure légère pour les cellules */
+    padding: 10px; /* Espacement interne des cellules */
+    text-align: left; /* Aligner le texte à gauche dans les cellules */
+  }
+
+  .action-button {
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px; /* Agrandir le padding des boutons */
+    font-size: 1.1em; /* Augmenter la taille du texte */
+    color: #fff; /* Couleur du texte */
+    border: none;
+    border-radius: 5px; /* Coins arrondis pour les boutons */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Effet de transition */
+  }
+  
+
+  
+  .button-icon {
+    margin-right: 8px; /* Espacement entre l'icône et le texte */
+  }
+
+
+
+  
+  .header-icon {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+    font-size: 1.5em; /* Taille de l'icône */
+  }
+  
+  .header-subtitle {
+    font-size: 1.1em;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .cell-red {
+    background-color: #f8d7da; /* Couleur rouge pâle pour les cellules */
+    color: #721c24; /* Couleur du texte pour contraste */
+    font-weight: bold; /* Texte en gras pour le rendre plus visible */
+  }
+  .row-green {
+    background-color: #f9e0b1; /* Vert clair */
+    color: #e27f07;
+    font-weight: bold;
+  }
+  .btnn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.action-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espace entre chaque ligne */
+}
+
+.btnn {
+    margin-right: 10px; /* Espace entre le bouton et la case à cocher */
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.column-selection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.column-selection {
+  position: relative; /* Nécessaire pour le positionnement absolu de la liste déroulante */
+  display: inline-block; /* Assure que le conteneur ajuste sa taille en fonction du contenu */
+}
+
+.dropdown-toggle {
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte */
+  border: none; /* Supprime la bordure du bouton */
+  padding: 10px; /* Espacement interne */
+  cursor: pointer; /* Change le curseur en main lors du survol */
+  border-radius: 4px; /* Coins arrondis */
+}
+
+.dropdown-menu1 {
+  position: absolute; /* Positionne la liste déroulante par rapport au conteneur parent */
+  top: 100%; /* Positionne la liste juste en dessous du bouton */
+  left: 0;
+  background-color: white; /* Couleur de fond de la liste déroulante */
+  border: 1px solid #ccc; /* Bordure légère */
+  border-radius: 4px; /* Coins arrondis */
+  list-style-type: none; /* Supprime les puces de la liste */
+  padding: 10px; /* Espacement interne */
+  margin: 0; /* Supprime la marge */
+  z-index: 1000; /* Assure que la liste apparaît au-dessus des autres éléments */
+}
+
+.checkbox-container {
+  display: flex; /* Aligne les cases à cocher et les étiquettes horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+}
+
+.content3 {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.content3 {
+  display: flex;
+  flex-direction: column; /* Aligne les éléments verticalement */
+  align-items: center; /* Centre les éléments horizontalement */
+  padding: 20px; /* Espacement intérieur */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.btnn {
+  margin-top: 15px;
+}
+
+.dropdown-toggle, .dropdown-menu1 {
+  width: 100%;
+}
+
+.dropdown-toggle {
+  background-color: #28a745;
+  margin-top: 10px;
+  color: white;
+}
+
+.dropdown-menu1 {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-container label {
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.action-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.normalization-container {
+  position: relative;
+}
+
+.normalization-container ul.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.normalization-container:hover ul.dropdown {
+  display: block;
+}
+
+ul.dropdown button {
+  background: none;
+  border: none;
+  padding: 5px;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+}
+
+ul.dropdown button:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+normalization-container {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+  display: none; /* Par défaut caché */
+}
+
+.dropdown.show {
+  display: block; /* Affiché quand la classe "show" est ajoutée */
+}
+
+
+.dropdown-btn {
+  background-color: #3498db; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  border: 1px solid #a0bcda; /* Bordure fine */
+  padding: 5px 10px; /* Espacement intérieur réduit */
+  border-radius: 3px; /* Coins légèrement arrondis */
+  cursor: pointer; /* Curseur de pointeur au survol */
+  font-size: 14px; /* Taille de police plus petite */
+  line-height: 1.2; /* Hauteur de ligne ajustée pour un aspect plus mince */
+  transition: background-color 0.3s, border-color 0.3s; /* Transition pour le survol */
+  width: 100%; /* Largeur complète */
+
+}
+
+.dropdown-btn:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+  border-color: #0056b3; /* Couleur de bordure au survol */
+}

@@ -1,0 +1,122 @@
+.container1 {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .target-feature p {
+    font-size: 1em;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    padding: 12px;
+    background: linear-gradient(135deg, #f7f7f7, #e0e0e0);
+   border-radius: 10px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  .target-feature-container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+  }
+  
+  .target-feature-container h2 {
+    margin-right: 10px; /* Space between heading and value */
+    margin-bottom: 0; /* Remove default margin at the bottom */
+  }
+  
+  .target-feature-container p {
+    margin: 0; /* Remove default margin */
+  }
+
+  .prediction-result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f4f4f4; /* Light background color for better visibility */
+    border: 1px solid #ddd;    /* Subtle border to define the area */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for a lifted effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prediction-result h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333; /* Darker text color for contrast */
+  }
+  /*************************************************************/
+  h4 {
+    text-align: left; /* Aligner le texte à gauche */
+    font-size: 18px;  /* Taille du texte pour un meilleur rendu */
+    color: #333;      /* Couleur du texte */
+    margin-bottom: 10px; /* Espace sous le titre */
+}
+.graph-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em; /* Ajustez la taille des icônes */
+  color: #007bff; /* Couleur des icônes */
+  margin-left: 10px; /* Espacement entre le titre et le bouton */
+}
+
+.download-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em; /* Ajustez la taille des icônes */
+  color: #007bff
+  ; /* Couleur des icônes */
+  margin-top: 10px; /* Espacement au-dessus du bouton */
+  padding-top:0px;padding-left:0px;
+}
+/* Couleur de fond pour les boutons lors du survol */
+.graph-button:hover,.download-button:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Couleur de fond légère pour le bouton d'affichage/masquage */
+  color: #0056b3; /* Couleur de texte lors du survol pour le bouton d'affichage/masquage */
+}
+.feature-importances-header {
+  display: flex;
+  align-items: center; /* Aligner les éléments verticalement au centre */
+  justify-content: space-between; /* Espacement entre le texte et les boutons */
+}
+
+.button-group {
+  display: flex;
+  align-items: center; /* Aligner verticalement les boutons */
+  gap: 10px; /* Espacement entre les boutons */
+  width: 50px;
+  height: 25px;
+}
+
+.graph-button, .download-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em; /* Ajustez la taille des icônes */
+
+}
+
+h4{
+ display:flex ;
+}
+.test-button {
+  border: none; /* Supprime la bordure par défaut */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement interne */
+  text-align: center; /* Centrer le texte */
+  display: inline-block; /* Permet le dimensionnement et l'espacement */
+  font-size: 16px; /* Taille du texte */
+  cursor: pointer; /* Curseur de la souris */
+  border-radius: 5px; /* Coins arrondis */
+  transition: background-color 0.3s ease; /* Transition pour le changement de couleur */
+}
+
+
+
