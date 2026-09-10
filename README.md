@@ -1,8 +1,6 @@
 # 🧠 MedVision - Medical Research Automation Platform
 
-[![Open in GitHub](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Nadaaaaaaaaaaaaaaaaaa/MedicalVision)
 [![Demo Video](https://img.shields.io/badge/📺-Demo_Video-red)](https://drive.google.com/file/d/1z5cbp8tV79wsfxuc33Z6Ud1js6intV-O/view?usp=drive_link)
-[![Download Project](https://img.shields.io/badge/📦-Download_Full_Project-green)](https://drive.google.com/file/d/13Ly_4l5KmrfM12r_rSIWVnwoZbE8zaZC/view?usp=sharing)
 
 **Web-based platform for end-to-end medical data processing**  
 *Supports tabular data & medical images with experiment tracking*
