@@ -38,7 +38,39 @@
 
 ---
 
-## 🚀 Quick Deployment
-### 1-Click Setup (Docker)
+## 🚀 Prérequis et démarrage
+
+### Prérequis
+- Python 3.9+ et `pip`
+- Node.js 18+ et `npm`
+- Un serveur MySQL, avec une base de données créée (ex. `prj`)
+
+### 1. Backend (Flask)
 ```bash
-docker-compose -f docker-compose.prod.yml up --build
+cd backend
+python -m venv venv
+source venv/bin/activate        # Windows : venv\Scripts\activate
+pip install -r requirements.txt  # à créer si absent
+```
+
+Dans `config.py`, adapter (idéalement via des variables d'environnement) :
+```python
+SQLALCHEMY_DATABASE_URI = 'mysql://<user>:<password>@localhost/<db_name>'
+SECRET_KEY = '<votre secret>'
+```
+
+Puis lancer le serveur :
+```bash
+python run.py
+```
+L'API tourne sur `http://localhost:5000` et crée les tables au premier lancement (`db.create_all()`).
+
+> ⚠️ `config.py` contient actuellement des identifiants MySQL en clair (root sans mot de passe) et une `SECRET_KEY` placeholder — à sécuriser avant tout déploiement réel.
+
+### 2. Frontend (React)
+```bash
+cd frontend
+npm install
+npm start
+```
+L'application tourne sur `http://localhost:3000` et communique avec le backend sur `http://localhost:5000` (URL actuellement codée en dur dans les composants).
